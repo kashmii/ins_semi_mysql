@@ -1,0 +1,18 @@
+current directory: /Users/myac21/ruby_app/ins_semi_mysql/ins_seminar/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+/Users/myac21/.rbenv/versions/3.0.3/bin/ruby -I /Users/myac21/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220215-4062-e5b6qz.rb extconf.rb
+checking for rb_io_wait()... yes
+checking for sys/ioctl.h... yes
+checking for FIONREAD in sys/ioctl.h,sys/ioctl.h... yes
+creating Makefile
+
+current directory: /Users/myac21/ruby_app/ins_semi_mysql/ins_seminar/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= clean
+
+current directory: /Users/myac21/ruby_app/ins_semi_mysql/ins_seminar/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\=
+compiling wait.c
+linking shared-object io/wait.bundle
+
+current directory: /Users/myac21/ruby_app/ins_semi_mysql/ins_seminar/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 wait.bundle ./.gem.20220215-4062-5j2kd9/io
