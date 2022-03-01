@@ -8,9 +8,7 @@ class UsersController < ApplicationController
     def create
         user_params = params.require(:user)\
             .permit(:name, :kana, :birth_date, :sex, :tel, :email)
-        @user = User.new(user_params)
-        render json: @user
-        # @applicant.save
-        # redirect_to seminars_path
+        @user = User.create(user_params)
+        # render json: @user
     end
 end
