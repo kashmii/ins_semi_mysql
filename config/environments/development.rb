@@ -69,8 +69,8 @@ Rails.application.configure do
     port:                 587,
     address:              'smtp.gmail.com',
     domain:               'smtp.gmail.com',
-    user_name:            'www.myac@gmail.com',
-    password:             'duvjxpeppdfiqaay',
+    user_name:            'xxxxxxxxxx@gmail.com',
+    password:             'xxxxxxxxxx',
     # 上記2列はgithubへのアップを避けていますが、僕が使うエディタではベタ書きしています
     authentication:       'login',
     enable_starttls_auto: true
